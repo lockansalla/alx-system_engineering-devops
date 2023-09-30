@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -1Ap | sed -e 's/[^[:alnum:]\.\/]/,/g' | sed -e 's/\(.*\)\/$/\1\/,/' | tr '\n' ',' && echo
+ls -map
